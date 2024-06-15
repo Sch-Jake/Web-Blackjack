@@ -1,0 +1,67 @@
+
+  /*this is the css for about half of the files created here
+Created by Jake Schouten 
+April 2024 
+*/
+  #title {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+  }
+  body {
+    background-color: white;
+  }
+  /* main button layout I want */
+
+  #rules, #deal, #home, #hit, #stand, #split, #double, #playAgain, #shop, #game, #getMoney  {
+    text-align: center;
+    border-radius: 25px;
+    background: rgb(213, 226, 194);
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    margin: 25px;
+  
+  }
+  #game{
+    text-align: center;
+    border-radius: 25px;
+    background: rgb(213, 226, 194);
+    padding: 20px;
+    padding-top: 20px;
+    width: 20%;
+    height: 20%;
+  
+  }
+  #richestUsers {
+    position: absolute;
+    right: 150px;
+  }
+  /* turn off the ability for the user to click  */
+
+  .disableButton  {
+    color: #fffbfb; 
+    cursor: not-allowed;
+    pointer-events: none;
+  
+  }
+  #dealerTalk{
+    font-size: 70px;
+  }
+ div {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+
+  #bomb {
+    background-image: url(images/bomb.jpg);
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    width: 40%;
+    height: 200px;
+    color: rgb(106, 0, 255);
+  }
+  

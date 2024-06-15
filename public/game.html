@@ -1,0 +1,48 @@
+<!-- main page game
+    Createad by Jake Schouten
+    this is the main game of black jack I created  -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>game</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+</head>
+<body>
+    <!-- top of the page if the user wants to go to another page  -->
+<p id = "userName"></p>
+<p id = "userPurse"></p>
+<ol id = "richestUsers"> Richest Users </ol>
+<button id = "home">Home</button>
+<button id = "rules">Rules</button>
+<button id = "shop">shop</button>
+<br>
+<!-- buttons to start the game of blackjack  -->
+<p>Bet amount:<input id = "betAmount" type="number" min="1"> </p>
+<button id = "deal">Deal</button>
+<button id = "playAgain" class = "disableButton">Play Again?</button>
+<!-- different paragraphs to display the cards to the user
+    not as fancy as I would like it to be but I ran out of time
+    goal was to use suits.png in images file to acutally display a card and not just a number -->
+<p id = "dealerIdentify"> dealer</p>
+<p id = "dealerHand"></p>
+<p id = "userIdentify"> Your Hand</p>
+<p id = "userHand"> </p>
+<p id = "userHandOut"> </p>
+<p id = "userHand2"></p>
+<p id = "userHand2Out"></p>
+<!-- buttons for the user to make moves with -->
+<button id = "stand" class = "disableButton">Stand</button>
+<button id = "hit" class = "disableButton">Hit</button>
+<button id = "split" class = "disableButton">Split</button>
+<button id = "double" class = "disableButton">Double</button>
+<!-- placeholder dealer with a "text" area for him to click-->
+<div>
+    <img src="images/dealer.jpg" alt="Luigi" width="400">
+    <p id = "dealerTalk"></p>
+</div>
+
+</body>
+</html> 

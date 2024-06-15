@@ -1,0 +1,25 @@
+<!-- Data page
+    Createad by Jake Schouten
+    is supposed to find the total purse value between the users and the bank through a join -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+</head>
+<body>
+<button id = "home">Home Screen</button>
+<button id = "check">Check</button>
+<p id = "total value"> </p>
+<br>
+<!-- I could not get this to work I always ran into an issue 
+    the query works in the mySQL powershell but not in an express endpoint  -->
+<p> For some reason I cannot get this query to work. <br> It works in mySQL from the power shell but I cannot get it to work as an express endpoint request. </p>
+<p> SELECT (SELECT SUM(purse) FROM loginData) + (SELECT SUM(purse) FROM bankData) AS total_purse_sum;</p>
+
+
+</body>
+</html> 
